@@ -1,0 +1,32 @@
+[
+    {
+        "name": "iphone",
+        "price": 52000,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone10",
+        "price": 82000,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "watch",
+        "price": 12000,
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Dell Inspiron",
+        "price": 52000,
+        "feature": true,
+        "company": "dell"
+    },
+    {
+        "name": "mi 11 pro max",
+        "price": 22000,
+        "feature": true,
+        "company": "mi"
+    }
+]
