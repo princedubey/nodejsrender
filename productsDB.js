@@ -8,6 +8,7 @@ const start = async() => {
 
     try {
         await connectDB(process.env.DB_URL);
+        await Products.deleteMany();
 // send Json file data | created collection through "create" function 
         await Products.create(productsJson);
         console.log("Data updated");
