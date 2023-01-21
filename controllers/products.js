@@ -31,6 +31,7 @@ const getAllProducts = async(req, res) =>{
         apiData = apiData.select(selectFix)
     }
 
+    
     // pagination concept
     let page = Number(req.query.page) || 1;
     let limit = Number(req.query.limit) || 3;
